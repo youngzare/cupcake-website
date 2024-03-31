@@ -94,10 +94,12 @@
   @media only screen and (min-width: 600px) {
     .navbar .rightNav button {
       display: none;
+      width: fit-content;
     }
   
     .hiddenLinks {
       display: none;
+      width: fit-content;
     }
   }
 
