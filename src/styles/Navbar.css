@@ -68,16 +68,16 @@
     margin: 5px;
   }
   @media only screen and (max-width: 900px) {
-    .navbar .rightSide a {
+    .navbar .rightNav a {
       width: 70px;
     }
-    .navbar .leftSide {
+    .navbar .leftNav {
       padding-left: 50px;
     }
   }
   
   @media only screen and (max-width: 600px) {
-    .navbar .rightSide a {
+    .navbar .rightNav a {
       display: none;
     }
   
@@ -100,3 +100,5 @@
       display: none;
     }
   }
+
+  
