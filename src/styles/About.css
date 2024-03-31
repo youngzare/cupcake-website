@@ -35,3 +35,42 @@
     justify-content: center;
     transform: translateY(-40px);
   }
+
+  @media only screen and (max-width: 650px) {
+    .about {
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutTop {
+      width: 100%;
+    }
+    .aboutBottom {
+      margin-left: 0px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #ff8bd3;
+      color: white;
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 60px;
+      height: 30px;
+      color: white;
+      text-align: center;
+    }
+  
+    .aboutBottom p {
+      font-size: 15px;
+      color: white;
+      text-align: center;
+      width: fit-content;
+    }
+  
+  }
