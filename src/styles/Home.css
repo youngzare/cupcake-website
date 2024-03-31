@@ -67,7 +67,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: #121619;
+      background-color: #ff8bd3;
       color: white;
     }
   
@@ -75,11 +75,13 @@
       font-size: 40px;
       height: 30px;
       color: white;
+      text-align: center;
     }
   
     .headerContainer p {
       font-size: 30px;
       color: white;
+      text-align: center;
     }
   
     .headerContainer button {
@@ -89,7 +91,7 @@
     }
   
     .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
+      background-color: #fd59be;
+      color: white;
     }
   }
